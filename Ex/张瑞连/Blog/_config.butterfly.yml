@@ -256,10 +256,22 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
+    since: 2024
   custom_text:
   # Copyright of theme and framework
   copyright: true
+
+ICP:
+  enable: true  # 是否启用ICP
+  url: https://beian.miit.gov.cn  # 点击后的链接地址
+  text: 粤ICP备2024326460号  # 备案号
+  icon:    # 图标
+
+NSP:
+  enable: true   # 是否启用NSP
+  url: http://www.beian.gov.cn/  # 点击后的链接地址
+  text: 京公网安备 xxxxx号    # 公安备案号
+  icon: http://www.beian.gov.cn/img/new/gongan.png  # 图标
 
 # --------------------------------------
 # Aside Settings

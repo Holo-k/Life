@@ -7,13 +7,13 @@ title: 张瑞连
 subtitle: '一生中百样可能,遇见你爱上你是种缘分'
 description: ''
 keywords:
-author: 最爱你的专属饲养员弟弟-小茗
+author: 最爱姐姐的专属饲养员--弟弟小茗
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.张瑞连.我爱你
+url: https://www.xn--e1tu68bp7t.xn--6qq986b3xl
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,4 +101,15 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: baidu_url_submitter
+
+baidu_url_submit:
+  count: 5
+  host: www.xn--e1tu68bp7t.xn--6qq986b3xl
+  token: BE7URmt42Kf0s9An
+  path: baidu_urls.txt
+
+baidusitemap:
+  path: baidusitemap.xml
+sitemap:
+  path: sitemap.xml
