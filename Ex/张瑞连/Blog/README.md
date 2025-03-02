@@ -56,3 +56,6 @@ NSP:
 
 ```
 
+### 更改源
+
+- cdn.jsdelivr.net-->fastly.jsdelivr.net
